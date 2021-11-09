@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>QuizJS</title>
+		<link rel="stylesheet" href="style.css" />
+		<script src="script.js" defer></script>
+	</head>
+	<body>
+		<h1>Quiz</h1>
+		<main>
+			<form class="form-quizz">
+				<div class="question-block">
+					<h4>
+						Qui est les plus gros scorrer de 3 points en NBA?
+					</h4>
+					<div>
+						<input type="radio" name="q1" id="r1" value="a" checked />
+						<label for="r1">Ray Allen</label>
+					</div>
+					<div>
+						<input type="radio" name="q1" id="r2" value="b" />
+						<label for="r2">Stephen Curry</label>
+					</div>
+					<div>
+						<input type="radio" name="q1" id="r3" value="c" />
+						<label for="r3">James Harden</label>
+					</div>
+					<div>
+						<input type="radio" name="q1" id="r4" value="d" />
+						<label for="r4">LeBron James</label>
+					</div>
+				</div>
+				<div class="question-block">
+					<h4>
+						Quelle est la hauteur d'un panier de basket ?
+					</h4>
+					<div>
+						<input type="radio" name="q2" id="r5" value="a" checked />
+						<label for="r5">2m95</label>
+					</div>
+					<div>
+						<input type="radio" name="q2" id="r6" value="b" />
+						<label for="r6">3m05</label>
+					</div>
+					<div>
+						<input type="radio" name="q2" id="r7" value="c" />
+						<label for="r7">3m15</label>
+					</div>
+					<div>
+						<input type="radio" name="q2" id="r8" value="d" />
+						<label for="r8">3m25</label>
+					</div>
+				</div>
+
+				<button type="submit">Validez vos choix !</button>
+			</form>
+
+			<div class="resultats">
+				<h2>Cliquez sur valider pour voir les résultats</h2>
+				<p class="aide"></p>
+				<p class="note"></p>
+			</div>
+		</main>
+	</body>
+</html>
